@@ -13,3 +13,8 @@ $ cargo test
 $ cargo build-bpf
 $ cargo test-bpf
 ```
+
+
+Last time I go up to [here](https://paulx.dev/blog/2021/01/14/programming-on-solana-an-introduction/#trying-out-the-program-understanding-alice-s-transaction)
+
+Still having errors running `cargo build-bpf` because the feature 'resolver' is required, even though I added `cargo-features = ["resolver"]` to Cargo.toml
